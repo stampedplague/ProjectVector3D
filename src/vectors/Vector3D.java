@@ -58,7 +58,7 @@ public class Vector3D {
     public Vector3D add(Vector3D anotherVector) {
         return new Vector3D(x+anotherVector.x,
                             y+anotherVector.y,
-                            z+anotherVector.y);
+                            z+anotherVector.z);
     }//public Vector3D
             
     /**
