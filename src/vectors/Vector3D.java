@@ -67,7 +67,7 @@ public class Vector3D {
      * @return wektor z pomnożonymi współrzędnymi
      */
     public Vector3D multiplyByScalar(double alpha) {
-        return new Vector3D(alpha*x, alpha*y, alpha*y);
+        return new Vector3D(alpha*x, alpha*y, alpha*z);
     }//public Vector3D multiplyScalar        
     
     /**
