@@ -47,7 +47,7 @@ public class Vector3D {
      * @return długość wektora
      */
     public double length() {
-        return Math.sqrt(x*x+y*y+y*z);
+        return Math.sqrt(x*x+y*y+z*z);
     }//public double lenght 
     
     /**
@@ -76,7 +76,7 @@ public class Vector3D {
      * @return obliczony iloczyn skalarny
      */
     public double dotProduct(Vector3D anotherVector) {
-        return x*anotherVector.x+y*anotherVector.y+y*anotherVector.z;
+        return x*anotherVector.x+y*anotherVector.y+z*anotherVector.z;
     }//public double dotProduct
     
     /**
